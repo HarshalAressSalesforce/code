@@ -4,6 +4,6 @@ public class accountControllerTest {
     public static void testMethod1 () {
      	 AccountController.fetchContacts();
 		 AccountController.findAll();
-		 //AccountController.fetchAccounts();
+		 AccountController.fetchAccounts();
     }  
 }

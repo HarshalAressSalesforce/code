@@ -13,9 +13,9 @@ public with sharing class AccountController {
 		return [SELECT id  FROM Contact LIMIT 50];
     }
 	
-	/*@AuraEnabled
+	@AuraEnabled
     public static List<Account> fetchAccounts() {
 		return [SELECT id  FROM Account LIMIT 50];
-    }*/
+    }
 
 }
